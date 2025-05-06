@@ -167,3 +167,14 @@ a:hover {
   margin: 1rem;
   gap: 1rem;
 }
+
+.disclaimer {
+  border-left: 3px solid rgb(231, 0, 0);
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.137), rgba(255, 0, 0, 0));
+  overflow-y: auto;
+  width: 100%;
+  padding: 1rem;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 1rem;
+}
