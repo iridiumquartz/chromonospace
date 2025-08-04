@@ -57,7 +57,8 @@ blockquote {
   text-transform: uppercase;
   font-style: normal;
   text-align: justify;
-  margin: 10px 0;
+  width: 60%;
+  margin: 20px 0;
 }
 
 hr {
@@ -255,6 +256,7 @@ a:hover {
   font-size: 16px;
   margin-top: 1rem;
 }
+
 
 
 
