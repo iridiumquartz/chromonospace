@@ -45,7 +45,7 @@ strong {
 em {
   color: #ffffff;
   letter-spacing: 3px;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   font-style: normal;
 }
@@ -57,8 +57,8 @@ blockquote {
   text-transform: uppercase;
   font-style: normal;
   width: 60%;
-  margin: 20px 0;
-  border-left: 2px solid white;
+  margin: 20px;
+  border-left: 2px solid #c9c9c9;
 }
 
 hr {
@@ -256,6 +256,7 @@ a:hover {
   font-size: 16px;
   margin-top: 1rem;
 }
+
 
 
 
