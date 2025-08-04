@@ -108,7 +108,7 @@ nav-component {
   width: 100%;
   font-family: 'Silkscreen', monospace;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   border-top: 2px dotted;
   border-bottom: 2px dotted;
   margin-bottom: 1rem;
@@ -244,4 +244,5 @@ a:hover {
   font-size: 16px;
   margin-top: 1rem;
 }
+
 
