@@ -16,6 +16,9 @@ body {
 
 main, article {
   padding: 2rem;
+}
+
+article {
   line-height: 1.8;
 }
 
@@ -296,6 +299,7 @@ a:hover.enter-link {
   font-size: 16px;
   margin-top: 1rem;
 }
+
 
 
 
