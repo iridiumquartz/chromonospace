@@ -102,10 +102,8 @@ h2 {
 }
 
 h3 {
-  color: #fff9c8;
-  font-family: 'Doto', monospace;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Silkscreen', monospace;
+  color: #fff;
   font-size: 24px;
   letter-spacing: 0.1em;
 }
@@ -301,6 +299,7 @@ a:hover.enter-link {
   font-size: 16px;
   margin-top: 1rem;
 }
+
 
 
 
