@@ -137,11 +137,42 @@ a:link, a:visited, a:active {
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-
 a:hover {
-  background-image: linear-gradient(to right, rgb(100, 100, 255), rgb(50, 180, 255), rgb(0, 200, 120));
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
+  animation: glitchy-text 0.4s infinite;
+}
+
+@keyframes glitchy-text {
+  0% {
+    transform: none;
+    text-shadow: none;
+  }
+  15% {
+    transform: translate(-1px, 0) skewX(-5deg);
+    text-shadow: 2px 0 rgb(100, 100, 255);
+  }
+  30% {
+    transform: translate(1px, 1px) skewX(5deg);
+    text-shadow: rgb(255, 255, 255);
+  }
+  45% {
+    transform: translate(-2px, -1px) skewX(-3deg);
+    text-shadow: 2px 0 rgb(0, 200, 120);
+  }
+  60% {
+    transform: translate(1px, -2px) skewX(4deg);
+    text-shadow: -2px 0 rgb(255, 18, 176);
+  }
+  75% {
+    transform: translate(-1px, 1px) skewX(-5deg);
+    text-shadow: 2px 0 rgb(50, 180, 255);
+  }
+  100% {
+    transform: none;
+    text-shadow: none;
+  }
 }
 
 #index {
@@ -256,6 +287,7 @@ a:hover {
   font-size: 16px;
   margin-top: 1rem;
 }
+
 
 
 
