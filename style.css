@@ -138,6 +138,13 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
+  background-image: linear-gradient(to right, rgb(100, 100, 255), rgb(50, 180, 255), rgb(0, 200, 120));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+a:hover.enter-link {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -287,6 +294,7 @@ a:hover {
   font-size: 16px;
   margin-top: 1rem;
 }
+
 
 
 
