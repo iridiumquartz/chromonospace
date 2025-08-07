@@ -48,6 +48,9 @@ em {
   font-size: 14px;
   text-transform: uppercase;
   font-style: normal;
+  background: rgba(44, 28, 56, 0.219);
+  border-radius: 5px 0px;
+  padding: 2px;
 }
 
 blockquote {
@@ -294,6 +297,7 @@ a:hover.enter-link {
   font-size: 16px;
   margin-top: 1rem;
 }
+
 
 
 
