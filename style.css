@@ -19,12 +19,13 @@ body.index {
   align-items: center;
 }
 
-main, article, aside {
+main, aside {
   padding: 2rem;
 }
 
 article {
   line-height: 1.8;
+  padding: 3rem;
 }
 
 section {
@@ -310,3 +311,4 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
