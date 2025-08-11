@@ -1,0 +1,7 @@
+<header>
+  <h1>chromonospace</h1>
+  <nav>
+    <a href="{{ '/profile.html' | relative_url }}">profile</a>
+    <a href="{{ '/journal/' | relative_url }}">journal</a>
+  </nav>
+</header>
