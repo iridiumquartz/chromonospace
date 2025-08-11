@@ -11,9 +11,7 @@
     <div class="container-y">
         {% include header.html %}
         <section class="container-x">
-            <main>
-                {{ content }}
-            </main>
+            {{ content }}
         </section>
         <footer></footer>
     </div>
