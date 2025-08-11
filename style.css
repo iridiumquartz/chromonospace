@@ -215,7 +215,7 @@ a:hover.enter-link {
   flex-direction: column;
   align-items: flex-start;
   width: 80%;
-  max-width: 1080px;
+  max-width: 900px;
 }
 
 .imgfloat {
@@ -311,4 +311,5 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
 
