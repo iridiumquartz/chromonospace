@@ -235,6 +235,7 @@ a:hover.enter-link {
 .blogtitledate {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .gallery {
@@ -300,6 +301,7 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
 
 
 
