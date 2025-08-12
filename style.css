@@ -19,8 +19,9 @@ body.index {
   align-items: center;
 }
 
-article {
+article, section {
   line-height: 1.8;
+  padding: 2rem;
 }
 
 main {
@@ -29,7 +30,6 @@ main {
   overflow-y: auto;
   width: 100%;
   line-height: 1.5;
-  margin: 2rem;
 }
 
 strong {
@@ -299,6 +299,7 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
 
 
 
