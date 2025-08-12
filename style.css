@@ -19,7 +19,7 @@ body.index {
   align-items: center;
 }
 
-main, aside {
+section, aside {
   padding: 2rem;
 }
 
@@ -28,7 +28,7 @@ article {
   padding: 3rem;
 }
 
-section {
+main {
   background: rgba(44, 28, 56, 0.219);
   border-radius: 20px 0px;
   overflow-y: auto;
@@ -308,6 +308,7 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
 
 
 
