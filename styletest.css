@@ -210,7 +210,7 @@ a:hover.enter-link {
   width: 100%;
 }
 
-.container-y {
+.container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
