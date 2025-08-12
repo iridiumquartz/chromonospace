@@ -101,6 +101,7 @@ h2 {
   font-family: 'Silkscreen', monospace;
   font-size: 36px;
   color: #fff;
+  margin: 0;
 }
 
 h3 {
@@ -299,6 +300,7 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
 
 
 
