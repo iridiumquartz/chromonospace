@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=1024">
-    <link href="{{ '/style.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ 'styletest.css' | relative_url }}" rel="stylesheet">
     <link rel="icon" type="image/png" href="{{ '/assets/favicon-dark.png' | relative_url }}">
     <style>
       body {
@@ -16,11 +16,11 @@
     </style>
 </head>
 <body>
-    <div class="container-y">
+    <div class="container">
         {% include header.html %}
-        <section class="container-x">
+        <main>
             {{ content }}
-        </section>
+        </main>
         <footer></footer>
     </div>
     <script src="{{ '/script.js' | relative_url }}"></script>
