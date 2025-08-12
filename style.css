@@ -118,8 +118,6 @@ h3 {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between !important;
-  width: 100%;
 }
 
 footer {
@@ -311,6 +309,7 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
 
 
 
