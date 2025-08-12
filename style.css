@@ -198,9 +198,7 @@ a:hover.enter-link {
   text-align: center;
 }
 
-
-
-.container-x {
+.rows {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -310,6 +308,7 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
 
 
 
