@@ -21,7 +21,7 @@ body.index {
 
 article, section {
   line-height: 1.8;
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 main {
@@ -301,6 +301,7 @@ a:hover.enter-link {
   max-width: none;
   max-height: none;
 }
+
 
 
 
