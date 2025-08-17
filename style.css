@@ -135,7 +135,7 @@ nav a {
   border-radius: 2px;
 }
 
-a, a:link, a:visited, a:active {
+a:link, a:visited, a:active {
   color: white !important;
   text-decoration: none;
   letter-spacing: 0.1em;
@@ -266,6 +266,7 @@ a:hover.enter-link {
   margin-bottom: 1rem;
   padding: 10px;
 }
+
 
 
 
