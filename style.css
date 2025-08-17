@@ -125,6 +125,7 @@ h3 {
 
 footer {
   margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 nav {
@@ -279,6 +280,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
