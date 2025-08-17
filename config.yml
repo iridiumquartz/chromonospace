@@ -1,0 +1,13 @@
+title: "chromono.space"
+description: "Court's personal site"
+baseurl: ""
+url: "https://chromono.space"
+
+markdown: kramdown
+theme: ""
+
+permalink: /journal/:year:month:day/
+
+include: ["_layouts", "_posts", "_includes"]
+
+exclude: ["README.md", ".nojekyll"]
