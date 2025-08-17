@@ -8,8 +8,8 @@ title: "j o u r n a l ★ s p a c e"
   <hr>
 
   {% assign total = site.posts | size %}
-  {% for post in site.posts %} {# newest → oldest #}
-    {% assign n = total | minus: forloop.index0 | minus: 1 %} {# index from oldest #}
+  {% for post in site.posts %}
+    {% assign n = total | minus: forloop.index0 | minus: 1 %}
     <div class="j-summary">
       <span>
         #{% if n < 10 %}00{% elsif n < 100 %}0{% endif %}{{ n }} ||
