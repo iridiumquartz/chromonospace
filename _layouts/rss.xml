@@ -4,6 +4,7 @@
     <title>{{ site.title }}</title>
     <link>{{ site.url }}{{ site.baseurl }}</link>
     <atom:link href="{{ site.url }}{{ '/feed.xml' | relative_url }}" rel="self" type="application/rss+xml" />
+    <atom:icon>{{ site.url }}/favicon.ico</atom:icon>
     <description>{{ site.description }}</description>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <language>en-us</language>
