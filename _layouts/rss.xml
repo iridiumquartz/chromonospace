@@ -13,13 +13,13 @@
       {% assign n = forloop.index0 %}
       <item>
         <title>
-          #{% if n < 10 %}00{% elsif n < 100 %}0{% endif %}{{ n }} || {{ post.title | xml_escape }}
+          #{% if n < 10 %}00{% elsif n < 100 %}0{% endif %}{{ n }} {{ post.title | xml_escape }}
         </title>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description><![CDATA[
-          {{ post.content }}
+          {{ post.content | replace: '<hr>', '<p>-------</p>' }}
         ]]></description>
       </item>
     {% endfor %}
