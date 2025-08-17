@@ -1,2 +1,2 @@
-# chromonospace
-Personal website.
+# chromono.space
+This is a personal website & blog.
