@@ -5,8 +5,6 @@ title: "j o u r n a l ★ s p a c e"
 
 <section>
   <h2>Journal</h2>
-  <hr>
-
   {% assign total = site.posts | size %}
   {% for post in site.posts %}
     {% assign n = total | minus: forloop.index0 | minus: 1 %}
@@ -19,3 +17,4 @@ title: "j o u r n a l ★ s p a c e"
     </div>
   {% endfor %}
 </section>
+
