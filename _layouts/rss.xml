@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}{{ site.baseurl }}</link>
+    <description>{{ site.description }}</description>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <language>en-us</language>
+
+    {% assign total = site.posts | size %}
+    {% assign sorted_posts = site.posts | sort: "date" %}
+    {% for post in sorted_posts %}
+      {% assign n = forloop.index0 %}
+      <item>
+        <title>
+          #{% if n < 10 %}00{% elsif n < 100 %}0{% endif %}{{ n }} || {{ post.title | strip_html }}
+        </title>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <description><![CDATA[
+          {{ post.content }}
+        ]]></description>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
