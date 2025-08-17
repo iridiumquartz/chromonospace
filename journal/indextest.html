@@ -7,15 +7,13 @@ title: "j o u r n a l ★ s p a c e"
   <h2>Journal</h2>
   <hr>
 
-  {% assign counter = site.posts.size %}
   {% for post in site.posts %}
     <div class="j-summary">
       <span>
-        #{{ "%03d" | format: counter }} || 
+        #{% if forloop.index0 < 10 %}00{% elsif forloop.index0 < 100 %}0{% endif %}{{ forloop.index0 }} || 
         <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
       </span>
       <span>{{ post.date | date: "%Y.%m.%d" }}</span>
     </div>
-    {% assign counter = counter | minus: 1 %}
   {% endfor %}
 </section>
