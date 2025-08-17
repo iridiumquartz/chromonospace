@@ -19,7 +19,7 @@
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description><![CDATA[
-          {{ post.content | replace: '<hr>', '<p>-------</p>' }}
+          {{ post.content | replace: '<hr>', '<p>---------------------</p>' }}
         ]]></description>
       </item>
     {% endfor %}
