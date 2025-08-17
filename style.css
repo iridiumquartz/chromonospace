@@ -223,20 +223,6 @@ a:hover.enter-link {
   object-fit: contain;
 }
 
-.blogpostsummary {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  padding: 10px;
-}
-
-.blogtitledate {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-
 .image-wrapper {
   flex: 0 0 auto;
   display: flex;
@@ -250,7 +236,13 @@ a:hover.enter-link {
   max-height: none;
 }
 
-.post-meta {
+.j-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.j-meta {
   color: rgba(132, 106, 217, 1);
   letter-spacing: 3px;
   font-size: 14px;
@@ -258,4 +250,12 @@ a:hover.enter-link {
   font-style: normal;
   border-radius: 2.5px 0px;
   padding: 5px;
+}
+
+.j-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 10px;
 }
