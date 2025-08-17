@@ -16,7 +16,9 @@
                 {{ content }}
             </div>
         </main>
-        <footer><a href="{{ '/feed.xml' | relative_url }}">RSS</a></footer>
+        <footer>
+              <p>&copy; {{ "now" | date: "%Y" }} Court / chromono.space | <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a></p>
+        </footer>
     </div>
     <script src="{{ '/script.js' | relative_url }}"></script>
 </body>
