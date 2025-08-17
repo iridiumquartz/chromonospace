@@ -19,7 +19,7 @@ body.index {
 }
 
 .inner-container {
-    padding: 2rem;
+    padding: 2.5rem;
     line-height: 1.8;
 }
 
@@ -260,6 +260,7 @@ a:hover.enter-link {
   border-radius: 2.5px 0px;
   padding: 5px;
 }
+
 
 
 
