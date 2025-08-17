@@ -3,11 +3,11 @@ layout: default
 title: "j o u r n a l ★ s p a c e"
 ---
 <article>
-  <header class="blogtitledate">
+  <div class="j-header">
     <h2>{{ page.title }}</h2>
-    <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}</p>
-  </header>
-  <div class="post-content">
+    <p class="j-meta">{{ page.date | date: "%B %d, %Y" }}</p>
+  </div>
+  <div class="j-content">
     {{ content }}
   </div>
 </article>
