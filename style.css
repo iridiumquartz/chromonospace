@@ -19,12 +19,9 @@ body.index {
   align-items: center;
 }
 
-article, section {
-  line-height: 1.8;
-}
-
-#inner-container {
+.inner-container {
     padding: 2rem;
+    line-height: 1.8;
 }
 
 main {
@@ -264,6 +261,7 @@ a:hover.enter-link {
   border-radius: 2.5px 0px;
   padding: 5px;
 }
+
 
 
 
