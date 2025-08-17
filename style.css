@@ -16,7 +16,9 @@ body {
 
 .index {
   align-items: center;
+  text-align: center;
   margin: 0 auto;
+  min-width: 500px;
 }
 
 .inner-container {
@@ -271,6 +273,7 @@ a:hover.enter-link {
   width: 60%;
   font-size: 14px;
 }
+
 
 
 
