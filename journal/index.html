@@ -7,10 +7,12 @@ title: "j o u r n a l ★ s p a c e"
   <h2>Journal</h2>
   <hr>
 
-  {% for post in site.posts %}
+  {% assign total = site.posts | size %}
+  {% for post in site.posts %} {# newest → oldest #}
+    {% assign n = total | minus: forloop.index0 | minus: 1 %} {# index from oldest #}
     <div class="j-summary">
       <span>
-        #{% if forloop.index0 < 10 %}00{% elsif forloop.index0 < 100 %}0{% endif %}{{ forloop.index0 }} || 
+        #{% if n < 10 %}00{% elsif n < 100 %}0{% endif %}{{ n }} ||
         <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
       </span>
       <span>{{ post.date | date: "%Y.%m.%d" }}</span>
