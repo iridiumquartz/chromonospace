@@ -271,6 +271,7 @@ a:hover.enter-link {
   width: 60%;
   font-size: 14px;
   text-align: center;
-  align-items: center;
+  margin: 0 auto;
 }
+
 
