@@ -1,17 +1,14 @@
-{% raw %}
 ---
 layout: default
 ---
-<article class="posttest">
-  <header class="post-header">
+<article>
+  <header class="blogtitledate">
     <h2>{{ page.title }}</h2>
     <p class="post-meta">
       {{ page.date | date: "%B %d, %Y" }}
     </p>
   </header>
-
   <div class="post-content">
     {{ content }}
   </div>
 </article>
-{% endraw %}
