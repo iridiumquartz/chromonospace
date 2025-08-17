@@ -5,9 +5,7 @@ title: "j o u r n a l ★ s p a c e"
 <article>
   <header class="blogtitledate">
     <h2>{{ page.title }}</h2>
-    <span class="post-meta">
-      {{ page.date | date: "%B %d, %Y" }}
-    </span>
+    <em>{{ page.date | date: "%B %d, %Y" }}</em>
   </header>
   <div class="post-content">
     {{ content }}
