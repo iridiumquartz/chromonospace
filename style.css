@@ -244,17 +244,7 @@ a:hover.enter-link {
   margin-bottom: 2rem;
 }
 
-.j-meta {
-  color: rgba(132, 106, 217, 1);
-  letter-spacing: 3px;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-style: normal;
-  border-radius: 2.5px 0px;
-  padding: 5px;
-}
-
-j-meta p {
+j-meta {
   color: #ffffff;
   letter-spacing: 3px;
   font-size: 14px;
@@ -272,3 +262,4 @@ j-meta p {
   margin-bottom: 1rem;
   padding: 10px;
 }
+
