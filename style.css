@@ -253,6 +253,7 @@ a:hover.enter-link {
   background: rgba(132, 106, 217, 1);
   border-radius: 2.5px 0px;
   padding: 5px;
+  width: auto;
 }
 
 .j-summary {
@@ -262,4 +263,5 @@ a:hover.enter-link {
   margin-bottom: 1rem;
   padding: 10px;
 }
+
 
