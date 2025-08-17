@@ -128,14 +128,10 @@ nav {
   margin-bottom: 1rem;
 }
 
-a:link, a:visited, a:active {
-  color:rgb(255, 255, 255);
+a, a:link, a:visited, a:active {
+  color: white !important;
   text-decoration: none;
-  text-align: center;
   letter-spacing: 0.1em;
-  padding: 0.5rem;
-  width: 20%;
-  border-radius: 2px;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -263,5 +259,6 @@ a:hover.enter-link {
   margin-bottom: 1rem;
   padding: 10px;
 }
+
 
 
