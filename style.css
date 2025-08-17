@@ -239,8 +239,6 @@ a:hover.enter-link {
 }
 
 .j-header {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 2rem;
 }
 
@@ -262,6 +260,7 @@ a:hover.enter-link {
   margin-bottom: 1rem;
   padding: 10px;
 }
+
 
 
 
