@@ -17,6 +17,7 @@ body {
 .index {
   align-items: center;
   text-align: center;
+  max-width: 500px;
 }
 
 .inner-container {
@@ -190,11 +191,6 @@ a:hover.enter-link {
   }
 }
 
-#index {
-  max-width: 500px;
-  text-align: center;
-}
-
 .rows {
   display: flex;
   flex-direction: row;
@@ -269,6 +265,7 @@ a:hover.enter-link {
   margin-bottom: 1rem;
   padding: 10px;
 }
+
 
 
 
