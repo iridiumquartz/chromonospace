@@ -3,4 +3,4 @@ description: "Court's personal site"
 baseurl: ""
 url: "https://chromono.space"
 
-permalink: /journal/:year:month:day/
+permalink: /blog/:year:month:day/
