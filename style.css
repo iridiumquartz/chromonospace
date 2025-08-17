@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 
-body.index {
+.index {
   align-items: center;
 }
 
@@ -262,5 +262,6 @@ a:hover.enter-link {
   margin-bottom: 1rem;
   padding: 10px;
 }
+
 
 
