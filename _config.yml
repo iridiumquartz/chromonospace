@@ -1,5 +1,5 @@
-title: "chromono.space"
-description: "Court's personal site"
+title: "chromonospace"
+description: "personal website & blog"
 baseurl: ""
 url: "https://chromono.space"
 
@@ -9,3 +9,6 @@ defaults:
       type: "posts"
     values:
       permalink: /journal/:year:month:day/
+
+exclude:
+  - README.md
