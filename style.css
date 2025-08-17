@@ -232,7 +232,7 @@ a:hover.enter-link {
   max-height: none;
 }
 
-.main-header {
+.site-header {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -260,6 +260,7 @@ a:hover.enter-link {
   margin-bottom: 1rem;
   padding: 10px;
 }
+
 
 
 
