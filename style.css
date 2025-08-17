@@ -97,9 +97,15 @@ h1 a:link,
 h1 a:visited,
 h1 a:active,
 h1 a:hover {
-  text-decoration: none;
   color: #fff9c8 !important;
+  text-decoration: none;
+  font-size: 42px;
+  background-image: none !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: #fff9c8 !important;
+  display: inline !important;
 }
+
 
 h2 { 
   font-family: 'Silkscreen', monospace;
@@ -272,7 +278,9 @@ a:hover.enter-link {
 .i-advisory {
   width: 60%;
   font-size: 14px;
+  margin: 0 auto;
 }
+
 
 
 
