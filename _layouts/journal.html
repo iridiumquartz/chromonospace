@@ -1,3 +1,7 @@
+---
+layout: default
+title: "j o u r n a l ★ s p a c e"
+---
 <article>
   <div class="j-header">
     <h2>{{ page.title }}</h2>
@@ -10,11 +14,11 @@
 
   <nav class="j-nav">
     {% if page.previous %}
-      <a class="prev-post" href="{{ page.previous.url }}">← Previous</a>
+      <a class="prev-post" href="{{ page.previous.url }}">◂◂ Previous</a>
     {% endif %}
 
     {% if page.next %}
-      <a class="next-post" href="{{ page.next.url }}">Next →</a>
+      <a class="next-post" href="{{ page.next.url }}">Next ▸▸</a>
     {% endif %}
   </nav>
 </article>
