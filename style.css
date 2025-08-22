@@ -38,7 +38,7 @@ a,
 a:link,
 a:visited,
 a:active {
-  color: rgb(132, 106, 217);
+  color: rgb(191, 237, 255);
   font-weight: bold;
   text-decoration: none;
 }
@@ -361,6 +361,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
