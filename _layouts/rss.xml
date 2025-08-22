@@ -17,8 +17,8 @@
           #{% if n < 10 %}00{% elsif n < 100 %}0{% endif %}{{ n }} {{ post.title | xml_escape }}
         </title>
         <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}?v={{ post.updated | default: post.date | date: "%Y%m%d%H%M" }}</guid>
+        <pubDate>{{ post.updated | default: post.date | date_to_rfc822 }}</pubDate>
         <description><![CDATA[
           {{ post.content | replace: '<hr>', '<p>---------------------</p>' }}
         ]]></description>
