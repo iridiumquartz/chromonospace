@@ -319,6 +319,8 @@ a:hover.enter-link {
   justify-content: space-between;
   margin-bottom: 1rem;
   padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .j-nav {
@@ -354,6 +356,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
