@@ -13,13 +13,14 @@ title: "j o u r n a l ★ s p a c e"
     {% assign n = total | minus: forloop.index0 | minus: 1 %}
     <div class="j-summary">
       <span>
-        {% if n < 10 %}#00{{ n }}{% elsif n < 100 %}#0{{ n }}{% else %}#{{ n }}{% endif %} |
+        {% if n < 10 %}#00{{ n }}{% elsif n < 100 %}#0{{ n }}{% else %}#{{ n }}{% endif %} 
         <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
       </span>
       <span>{{ post.date | date: "%Y.%m.%d" }}</span>
     </div>
   {% endfor %}
 </section>
+
 
 
 
