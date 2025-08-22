@@ -280,21 +280,23 @@ a:hover.enter-link {
   justify-content: space-between;
   margin: 2rem 0;
   text-transform: uppercase;
-  color: #ffffff;
   letter-spacing: 3px;
   font-size: 14px;
-  background: rgb(0, 200, 120);
-  border-radius: 2.5px 0px;
-  padding: 5px;
 }
 
 .j-nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: rgb(0, 200, 120);
+  border-radius: 2.5px;
   color: #ffffff;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 .j-nav a:hover {
   color: #000000;
+  background: rgb(50, 230, 150);
 }
 
 .i-advisory {
@@ -302,4 +304,3 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
-
