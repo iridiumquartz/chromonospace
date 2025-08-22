@@ -143,7 +143,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1em;
+  gap: 1.5em;
   margin: 0 auto;
   padding-top: 1em;
   padding-bottom: 2em;
@@ -158,6 +158,11 @@ footer a {
 
 footer a img {
   margin-right: 0.25em;
+}
+
+footer a:hover {
+  color: rgb(235, 120, 24);
+  transition: all 0.2s ease;
 }
 
 .site-nav {
@@ -350,5 +355,6 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
