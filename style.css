@@ -160,6 +160,7 @@ a:hover {
   color: transparent;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+  transition: all 0.2s ease;
 }
 
 a:hover.enter-link {
@@ -291,6 +292,7 @@ a:hover.enter-link {
   border-radius: 2.5px;
   color: #ffffff;
   text-decoration: none;
+  font-family: 'Silkscreen', monospace;
   transition: all 0.2s ease;
 }
 
@@ -303,5 +305,6 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
