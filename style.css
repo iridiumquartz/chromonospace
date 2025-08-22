@@ -76,7 +76,7 @@ hr {
   margin: 2em 0;
 }
 
-.site-header {
+.site-home {
   color: #fff9c8;
   background-image: linear-gradient(to right, rgb(100, 100, 255), rgb(50, 180, 255), rgb(0, 200, 120));
   border-radius: 20px 0px;
@@ -93,10 +93,10 @@ hr {
   text-align: center;
 }
 
-.site-header a:link,
-.site-header a:visited,
-.site-header a:active,
-.site-header a:hover {
+.site-home a:link,
+.site-home a:visited,
+.site-home a:active,
+.site-home a:hover {
   color: #fff9c8 !important;
   text-decoration: none;
   font-size: 42px;
@@ -308,5 +308,6 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
