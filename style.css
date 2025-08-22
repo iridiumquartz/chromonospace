@@ -139,9 +139,10 @@ h3 {
   letter-spacing: 0.1em;
 }
 
-
-
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   padding-bottom: 2em;
 }
@@ -340,5 +341,6 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
