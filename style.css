@@ -279,6 +279,13 @@ a:hover.enter-link {
   display: flex;
   justify-content: space-between;
   margin: 2rem 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-size: 14px;
+  background: rgb(0, 200, 120);
+  border-radius: 2.5px 0px;
+  padding: 5px;
 }
 
 .j-nav a {
@@ -287,7 +294,7 @@ a:hover.enter-link {
 }
 
 .j-nav a:hover {
-  color: #ffd700;
+  color: #000000;
 }
 
 .i-advisory {
@@ -295,3 +302,4 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
