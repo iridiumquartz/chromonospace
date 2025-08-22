@@ -26,10 +26,6 @@ body {
     line-height: 1.8;
 }
 
-a {
-  text-decoration: none;
-}
-
 main {
   background: rgba(44, 28, 56, 0.219);
   border-radius: 20px 0px;
@@ -44,6 +40,7 @@ a:visited,
 a:active {
   color: rgb(132, 106, 217);
   font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover {
@@ -152,6 +149,7 @@ footer {
 
 footer a {
   color: white !important;
+  font-weight: normal;
   display: inline-flex;
   align-items: center;
 }
@@ -356,8 +354,3 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
-
-
-
-
-
