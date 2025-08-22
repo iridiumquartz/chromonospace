@@ -13,16 +13,24 @@ title: "j o u r n a l ★ s p a c e"
   </div>
 
   <nav class="j-nav">
-    {% if page.previous %}
-      {% assign prev_index = site.posts | index_of: page.previous %}
-      {% assign prev_number = prev_index | plus: 0 | prepend: "000" | slice: -3 %}
-      <a class="prev-post" href="{{ page.previous.url }}">#{{ prev_number }}</a>
+    {% assign all_posts = site.posts | reverse %} <!-- oldest first -->
+    {% for post in all_posts %}
+      {% if post.url == page.url %}
+        {% assign current_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign prev_index = current_index | minus: 1 %}
+    {% assign next_index = current_index | plus: 1 %}
+
+    {% if prev_index >= 0 %}
+      {% assign prev_post = all_posts[prev_index] %}
+      <a class="prev-post" href="{{ prev_post.url }}">#{{ prev_index | prepend: "000" | slice: -3 }}</a>
     {% endif %}
 
-    {% if page.next %}
-      {% assign next_index = site.posts | index_of: page.next %}
-      {% assign next_number = next_index | plus: 0 | prepend: "000" | slice: -3 %}
-      <a class="next-post" href="{{ page.next.url }}">#{{ next_number }}</a>
+    {% if next_index < all_posts.size %}
+      {% assign next_post = all_posts[next_index] %}
+      <a class="next-post" href="{{ next_post.url }}">#{{ next_index | prepend: "000" | slice: -3 }}</a>
     {% endif %}
   </nav>
 </article>
