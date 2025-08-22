@@ -252,6 +252,7 @@ a:hover.enter-link {
   flex-direction: column;
   width: 100%;
   gap: 1rem;
+  margin-top: 2rem;
 }
 
 .j-header {
@@ -317,3 +318,4 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
