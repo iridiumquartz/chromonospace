@@ -14,11 +14,15 @@ title: "j o u r n a l ★ s p a c e"
 
   <nav class="j-nav">
     {% if page.previous %}
-      <a class="prev-post" href="{{ page.previous.url }}">◂◂ Previous</a>
+      {% assign prev_index = site.posts | index_of: page.previous %}
+      {% assign prev_number = prev_index | plus: 0 | prepend: "000" | slice: -3 %}
+      <a class="prev-post" href="{{ page.previous.url }}">#{{ prev_number }}</a>
     {% endif %}
 
     {% if page.next %}
-      <a class="next-post" href="{{ page.next.url }}">Next ▸▸</a>
+      {% assign next_index = site.posts | index_of: page.next %}
+      {% assign next_number = next_index | plus: 0 | prepend: "000" | slice: -3 %}
+      <a class="next-post" href="{{ page.next.url }}">#{{ next_number }}</a>
     {% endif %}
   </nav>
 </article>
