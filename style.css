@@ -326,7 +326,7 @@ a:hover.enter-link {
   background-image: linear-gradient(to right, rgb(100, 100, 255), rgb(50, 180, 255), rgb(0, 200, 120));
   border-radius: 2.5px;
   color: #ffffff !important;
-  text-decoration: none;
+  font-weight: normal !important;
   font-family: 'Silkscreen', monospace;
   transition: all 0.2s ease;
 }
@@ -336,3 +336,4 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
