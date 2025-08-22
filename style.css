@@ -141,10 +141,12 @@ h3 {
 
 footer {
   display: flex;
+  color: white;
   justify-content: center;
   align-items: center;
   gap: 1em;
   margin: 0 auto;
+  padding-top: 1em;
   padding-bottom: 2em;
   font-size: 0.9em;
 }
@@ -154,6 +156,10 @@ footer a {
   align-items: center;
   color: white !important;
 }
+
+footer a:hover {
+  color: rgb(235, 120, 24);
+  transition: all 0.2s ease;
 
 footer a img {
   margin-right: 0.25em;
@@ -349,6 +355,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
