@@ -76,7 +76,7 @@ hr {
   margin: 2em 0;
 }
 
-h1 {
+.site-header {
   color: #fff9c8;
   background-image: linear-gradient(to right, rgb(100, 100, 255), rgb(50, 180, 255), rgb(0, 200, 120));
   border-radius: 20px 0px;
@@ -93,10 +93,10 @@ h1 {
   text-align: center;
 }
 
-h1 a:link,
-h1 a:visited,
-h1 a:active,
-h1 a:hover {
+.site-header a:link,
+.site-header a:visited,
+.site-header a:active,
+.site-header a:hover {
   color: #fff9c8 !important;
   text-decoration: none;
   font-size: 42px;
@@ -146,14 +146,17 @@ footer {
   border-radius: 2px;
 }
 
-a, a:link, a:visited, a:active {
+.site-nav a,
+.site-nav a:link, 
+.site-nav a:visited,
+.site-nav a:active {
   color: white !important;
   text-decoration: none;
   letter-spacing: 0.1em;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-a:hover {
+.site-nav a:hover {
   background-image: linear-gradient(to right, rgb(100, 100, 255), rgb(50, 180, 255), rgb(0, 200, 120));
   background-clip: text;
   -webkit-background-clip: text;
@@ -305,6 +308,5 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
-
 
 
