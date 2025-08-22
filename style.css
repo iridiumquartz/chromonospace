@@ -38,7 +38,7 @@ a,
 a:link,
 a:visited,
 a:active {
-  color: rgb(191, 237, 255);
+  color: rgb(112, 211, 250);
   font-weight: bold;
   text-decoration: none;
 }
@@ -202,9 +202,6 @@ footer a:hover {
   transition: all 0.2s ease;
 }
 
-a.enter-link {
-  color: white !important;
-}
 
 a:hover.enter-link {
   background-clip: text;
@@ -361,6 +358,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
