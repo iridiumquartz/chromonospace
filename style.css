@@ -323,6 +323,10 @@ a:hover.enter-link {
   text-transform: uppercase;
 }
 
+.j-summary a {
+    font-family: 'Doto', monospace;
+}
+
 .j-nav {
   display: flex;
   justify-content: space-between;
@@ -356,6 +360,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
