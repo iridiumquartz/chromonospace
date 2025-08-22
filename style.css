@@ -149,7 +149,7 @@ footer {
 
 footer a {
   color: white !important;
-  font-weight: normal;
+  font-weight: normal !important;
   display: inline-flex;
   align-items: center;
 }
@@ -354,3 +354,4 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
