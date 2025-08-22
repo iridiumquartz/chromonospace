@@ -146,14 +146,17 @@ footer {
   gap: 1em;
   margin: 0 auto;
   padding-bottom: 2em;
+  font-size: 0.9em;
 }
 
 footer a {
+  display: inline-flex;
+  align-items: center;
   color: white !important;
 }
 
 footer a img {
-  vertical-align: middle;
+  margin-right: 0.25em;
 }
 
 .site-nav {
@@ -346,6 +349,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
