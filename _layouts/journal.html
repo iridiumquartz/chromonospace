@@ -15,15 +15,15 @@ title: "j o u r n a l ★ s p a c e"
 
   <nav class="j-nav">
     {% if page.previous %}
-      <a class="prev-post" href="{{ page.previous.url }}">
-        #{{ page.previous.number | prepend: "000" | slice: -3 }}
-      </a>
+      <div class="nav-left">
+        <a class="prev-post" href="{{ page.previous.url }}">Previous</a>
+      </div>
     {% endif %}
 
     {% if page.next %}
-      <a class="next-post" href="{{ page.next.url }}">
-        #{{ page.next.number | prepend: "000" | slice: -3 }}
-      </a>
+      <div class="nav-right">
+        <a class="next-post" href="{{ page.next.url }}">Next</a>
+      </div>
     {% endif %}
   </nav>
 </article>
