@@ -58,7 +58,7 @@ strong {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 20px;
   background-size: 100% 100%;
 }
 
@@ -358,6 +358,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
