@@ -13,8 +13,10 @@ title: "j o u r n a l ★ s p a c e"
         #{% if n < 10 %}00{% elsif n < 100 %}0{% endif %}{{ n }} ||
         <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
       </span>
+      <p>You've made it three layers deep. Welcome. This is <strong>JOURNALSPACE</strong>.</p>
+      <p>Some of these entries are an exercise in creative writing, but the majority exist to document my emotional processing and the work of understanding myself. First and foremost, this space is mine. You may witness it, but respect is expected.</p>
+      <hr>
       <span>{{ post.date | date: "%Y.%m.%d" }}</span>
     </div>
   {% endfor %}
 </section>
-
