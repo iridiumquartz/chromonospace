@@ -287,7 +287,7 @@ a:hover.enter-link {
 .j-nav a {
   display: inline-block;
   padding: 5px 10px;
-  background: rgb(0, 200, 120);
+  background-image: linear-gradient(to right, rgb(100, 100, 255), rgb(50, 180, 255), rgb(0, 200, 120));
   border-radius: 2.5px;
   color: #ffffff;
   text-decoration: none;
@@ -304,3 +304,4 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
