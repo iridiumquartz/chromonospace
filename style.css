@@ -128,7 +128,7 @@ footer {
   padding-bottom: 2em;
 }
 
-nav {
+.site-nav {
   display: flex;
   width: 100%;
   font-family: 'Silkscreen', monospace;
@@ -139,7 +139,7 @@ nav {
   margin-bottom: 1rem;
 }
 
-nav a {
+.site-nav a {
   text-align: center;
   padding: 0.5rem;
   width: 20%;
@@ -275,15 +275,23 @@ a:hover.enter-link {
   padding: 10px;
 }
 
+.j-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.j-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.j-nav a:hover {
+  color: #ffd700;
+}
+
 .i-advisory {
   width: 60%;
   font-size: 14px;
   margin: 0 auto;
 }
-
-
-
-
-
-
-
