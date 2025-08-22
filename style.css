@@ -161,7 +161,7 @@ footer a img {
 }
 
 footer a:hover {
-  color: rgb(235, 120, 24);
+  color: rgb(235, 120, 24) !important;
   transition: all 0.2s ease;
 }
 
@@ -189,6 +189,7 @@ footer a:hover {
 .site-nav a:active {
   color: white !important;
   text-decoration: none;
+  font-weight: normal;
   letter-spacing: 0.1em;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
@@ -355,6 +356,7 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
 
 
