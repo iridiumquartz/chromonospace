@@ -125,7 +125,7 @@ hr {
 }
 
 
-h2 { 
+h1 { 
   font-family: 'Silkscreen', monospace;
   font-size: 36px;
   color: #fff;
@@ -346,3 +346,4 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
