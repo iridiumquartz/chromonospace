@@ -295,8 +295,7 @@ a:hover.enter-link {
 }
 
 .j-nav a:hover {
-  color: #000000;
-  background: rgb(50, 230, 150);
+  color: #000000 !important;
 }
 
 .i-advisory {
@@ -304,4 +303,5 @@ a:hover.enter-link {
   font-size: 14px;
   margin: 0 auto;
 }
+
 
